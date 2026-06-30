@@ -2,6 +2,8 @@
 layout: project
 title: Helbling Robotics Research Lab
 description: Graduate researcher in a Cornell laboratory
+summary: Contributing a dynamic braking mechanism to Gammabot, a flapping-wing robot designed for controlled locomotion along the air-water interface.
+order: 2
 technologies: [SolidWorks, GD&T, Machining, DFM, DFA]
 image: /assets/images/gammabot1.png
 ---

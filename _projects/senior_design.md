@@ -2,6 +2,8 @@
 layout: project
 title: Senior Design Project
 description: Class project 
+summary: Developed and validated an optimized horizontal-axis wind turbine blade using BEM modeling, CFD, and wind-tunnel data.
+order: 3
 technologies: [MATLAB, ANSYS CFD]
 image: /assets/images/senior_design_1.png
 ---
@@ -67,8 +69,6 @@ The following plots summarize aerodynamic performance predictions and the result
      Download PDF →
   </a>
 </div>
-
-
 
 
 

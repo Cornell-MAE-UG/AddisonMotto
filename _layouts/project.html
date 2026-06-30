@@ -2,14 +2,21 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-
-
-
-{{ content }}
-
-<p><strong>Technologies Used</strong>: {{ page.technologies | join: ", " }}</p>
-
-<a href={{ "/projects/" | relative_url }} class="back-arrow">
-    <i class="bi bi-arrow-left-circle-fill"></i> Back to Projects
-</a>
+<article class="project-page">
+  <header class="project-header site-shell">
+    <a class="back-link" href="{{ "/projects/" | relative_url }}"><span aria-hidden="true">&#8592;</span> All projects</a>
+    <p class="eyebrow">Engineering case study</p>
+    <h1>{{ page.title }}</h1>
+    <p class="project-deck">{{ page.description }}</p>
+    <div class="tag-list">
+      {% for technology in page.technologies %}<span>{{ technology }}</span>{% endfor %}
+    </div>
+  </header>
+  <div class="project-content site-shell">
+    {{ content }}
+  </div>
+  <nav class="project-next site-shell" aria-label="Project navigation">
+    <p class="eyebrow">Continue exploring</p>
+    <a href="{{ "/projects/" | relative_url }}">View all projects <span aria-hidden="true">&#8594;</span></a>
+  </nav>
+</article>

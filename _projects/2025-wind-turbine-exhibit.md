@@ -2,6 +2,8 @@
 layout: project
 title: Interactive Wind Turbine Exhibit
 description: Intern project at Creative Engineering LLC
+summary: Designed, fabricated, and installed a durable, visitor-operated wind turbine exhibit from concept through museum opening.
+order: 1
 technologies: [SolidWorks, GD&T, Machining, DFM, DFA]
 image: /assets/images/Windmill_finished.JPG
 ---
@@ -35,7 +37,7 @@ image: /assets/images/Windmill_finished.JPG
 <h2 style="margin-top: 0;">System Description</h2>
 
 <p>
-  Visitors actuate the turbine by spinning a large external hand wheel that meausre rotaional input. Then, using a conceled stepper motor, a gearbox and the turbine blades spin creating a interactive experience for museum visitors.
+Visitors actuate the turbine by spinning a large external hand wheel that measures rotational input. A concealed stepper motor then drives the gearbox and turbine blades, creating an interactive experience for museum visitors.
 </p>
 <div style="text-align: center; width: 100%; margin: 20px 0 13px 0;">
   <iframe
@@ -56,8 +58,8 @@ image: /assets/images/Windmill_finished.JPG
   <li>Developed a gearbox with proper tolerancing for smooth, reliable operation</li>
   <li>Implemented a clutch mechanism to limit torque and reduce risk of injury</li>
   <li>Balanced mechanical function with exhibit aesthetics and manufacturability</li>
-  <li>A strict 6 week deadline had to be hit</li>
-  <li>A strict budget must be met</li>
+  <li>Delivered within a strict six-week deadline</li>
+  <li>Met a fixed project budget</li>
 </ul>
 
 
@@ -150,4 +152,3 @@ Final assembly of the exhibit was completed primarily in-house, where components
   </div>
 
 </div>
-
