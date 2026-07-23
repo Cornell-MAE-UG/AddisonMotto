@@ -4,7 +4,7 @@ title: Interactive Wind Turbine Exhibit
 description: Intern project at Creative Engineering LLC
 summary: Designed, fabricated, and installed a durable, visitor-operated wind turbine exhibit from concept through museum opening.
 order: 1
-technologies: [SolidWorks, GD&T, Machining, DFM, DFA]
+technologies: [SolidWorks, GD&T, Machining, DFM, DFA, Stakeholder Collaboration]
 image: /assets/images/Windmill_finished.JPG
 ---
 
