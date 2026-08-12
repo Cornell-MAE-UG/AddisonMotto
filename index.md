@@ -74,7 +74,7 @@ description: Mechanical engineer focused on design, prototyping, testing, and mu
   <div class="site-shell personal-grid">
     <div class="personal-copy">
       <p class="eyebrow">02 &middot; Personal interests</p>
-      <h2>Always moving, learning, and finding the next place to explore.</h2>
+      <h2>Outside the lab.</h2>
       <p>Outside engineering, I spend a lot of time skiing, running, hiking, and traveling. I love trying new things, getting outside whenever I can, and bringing that same curiosity and energy into the way I approach projects.</p>
       <a class="text-link" href="{{ "/Resume/" | relative_url }}">Experience and education <span aria-hidden="true">&#8594;</span></a>
     </div>
