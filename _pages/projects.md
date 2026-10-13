@@ -7,7 +7,6 @@ permalink: /projects/
 
 <section class="page-intro site-shell">
   <p class="eyebrow">Project index</p>
-  <h1>Design, analysis, and hardware brought into the real world.</h1>
   <p>Selected work across mechanical systems, aerodynamics, manufacturing, and robotics research.</p>
 </section>
 
