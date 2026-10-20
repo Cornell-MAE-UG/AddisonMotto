@@ -450,3 +450,19 @@ p { margin: 0 0 1.25rem; }
   .site-footer { padding-top: 75px; }
   .footer-meta { margin-top: 70px; flex-direction: column; gap: 8px; }
 }
+
+// Helbling lab project media.
+.project-content .lab-video,
+.project-content .lab-results { max-width: 900px; margin: 32px auto; }
+.project-content .lab-video video { display: block; width: 100%; max-height: 520px; background: #111; }
+.project-content .lab-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; max-width: 900px; margin: 36px auto; }
+.project-content .lab-gallery figure { margin: 0; min-width: 0; }
+.project-content .lab-gallery img { display: block; width: 100%; height: 300px; object-fit: contain; background: #fff; }
+.project-content .lab-results img { display: block; width: 100%; }
+.project-content .lab-video figcaption,
+.project-content .lab-gallery figcaption,
+.project-content .lab-results figcaption { margin-top: 10px; color: $muted; font-size: .85rem; line-height: 1.5; }
+@media (max-width: 650px) {
+  .project-content .lab-gallery { grid-template-columns: 1fr; gap: 24px; }
+  .project-content .lab-gallery img { height: auto; max-height: 350px; }
+}
