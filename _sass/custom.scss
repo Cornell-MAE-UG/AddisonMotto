@@ -455,7 +455,7 @@ p { margin: 0 0 1.25rem; }
 .project-content .lab-video,
 .project-content .lab-results { width: 100%; max-width: 800px; margin: 32px auto 44px; }
 .project-content .lab-video video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #111; }
-.project-content .lab-gallery { display: grid; grid-template-columns: 1.27fr 1fr; align-items: start; gap: 24px; max-width: 800px; margin: 36px auto 48px; }
+.project-content .lab-gallery { display: grid; grid-template-columns: 1fr; align-items: start; gap: 24px; max-width: 680px; margin: 36px auto 48px; }
 .project-content .lab-gallery figure { margin: 0; min-width: 0; }
 .project-content .lab-gallery a,
 .project-content .lab-results a { display: block; }
@@ -468,3 +468,7 @@ p { margin: 0 0 1.25rem; }
   .project-content .lab-gallery { grid-template-columns: 1fr; gap: 28px; }
   .project-content .lab-gallery figure { width: 100%; max-width: 440px; margin-inline: auto; }
 }
+
+.project-content .lab-hero { width: 100%; max-width: 600px; margin: 0 auto 40px; }
+.project-content .lab-hero img { display: block; width: 100%; height: auto; }
+.project-content .lab-hero figcaption { margin-top: 12px; color: $muted; font-size: .85rem; line-height: 1.5; }

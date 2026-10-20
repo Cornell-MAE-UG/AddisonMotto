@@ -8,6 +8,13 @@ technologies: [Mechanical Design, Prototyping, Experimental Testing]
 image: /assets/images/helbling-gammabot-hardware.png
 ---
 
+<figure class="lab-hero">
+  <img src="{{ '/assets/images/helbling-gammabot-hardware.png' | relative_url }}" alt="Assembled Gammabot with electronics, wing mechanisms, and lightweight supporting frame" width="1162" height="1152" fetchpriority="high">
+  <figcaption>Gammabot, the flapping-wing robot at the center of this project.</figcaption>
+</figure>
+
+## A brake for Gammabot
+
 I’m developing a lightweight brake for **Gammabot**, a flapping-wing robot that moves along the water surface. Its wings drive it forward, but slowing down and holding position require another way to control its motion. My project brings together brake design, prototyping, and experiments to understand how a small mechanism can change the robot’s behavior on the water.
 
 The challenge is balancing drag with weight: the brake needs to push against the water effectively while staying light enough for the robot. Longer term, better control of motion could help Gammabots pause and communicate through vibrations on the water surface.
@@ -30,10 +37,6 @@ Once assembled, I’ll test whether the brake deploys reliably into the water an
   <figure>
     <a href="{{ '/assets/images/helbling-brake-assembly-cad.png' | relative_url }}"><img src="{{ '/assets/images/helbling-brake-assembly-cad.png' | relative_url }}" alt="CAD view of the brake mechanism within Gammabot’s frame" loading="lazy" width="1314" height="1022"></a>
     <figcaption>CAD of the brake integrated into the lightweight frame.</figcaption>
-  </figure>
-  <figure>
-    <a href="{{ '/assets/images/helbling-gammabot-hardware.png' | relative_url }}"><img src="{{ '/assets/images/helbling-gammabot-hardware.png' | relative_url }}" alt="Gammabot hardware with electronics mounted above the lightweight frame" loading="lazy" width="1162" height="1152"></a>
-    <figcaption>Gammabot’s electronics and frame, showing the space available for integration.</figcaption>
   </figure>
 </div>
 
