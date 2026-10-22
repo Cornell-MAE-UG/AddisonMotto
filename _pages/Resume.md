@@ -10,11 +10,11 @@ permalink: /Resume/
     <p class="eyebrow">Resume</p>
     <h1>Experience, education, and technical work.</h1>
   </div>
-  <a class="button button-primary" href="{{ "/assets/Resume.pdf" | relative_url }}" target="_blank" rel="noopener">Download PDF <span aria-hidden="true">&#8595;</span></a>
+  <a class="button button-primary" href="{{ "/assets/Resume.pdf" | relative_url }}?v=2026-10-22" target="_blank" rel="noopener">Download PDF <span aria-hidden="true">&#8595;</span></a>
 </section>
 
 <section class="resume-viewer site-shell">
-  <iframe src="{{ "/assets/Resume.pdf" | relative_url }}" title="Addison Motto resume"></iframe>
+  <iframe src="{{ "/assets/Resume.pdf" | relative_url }}?v=2026-10-22" title="Addison Motto resume"></iframe>
 </section>
 
 <section class="resume-contact site-shell">

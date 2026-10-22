@@ -11,7 +11,7 @@ description: Mechanical engineer focused on design, prototyping, testing, and mu
     <p class="hero-intro">My name is Addison Motto, and I recently graduated magna cum laude from Cornell University with a degree in Mechanical Engineering. I am currently pursuing a Master of Engineering in Systems Engineering, with interests in designing, analyzing, and building complex engineering systems from early concepts and CAD to prototyping, testing, and real-world implementation. My experience spans electric vehicles, aerospace and defense hardware, manufacturing, and product development, and I enjoy work that combines hands-on engineering, system-level thinking, and creative problem solving.</p>
     <div class="hero-actions">
       <a class="button button-primary" href="#featured-work">See featured work <span aria-hidden="true">&#8595;</span></a>
-      <a class="text-link" href="{{ "/assets/Resume.pdf" | relative_url }}" target="_blank" rel="noopener">Open resume <span aria-hidden="true">&#8599;</span></a>
+      <a class="text-link" href="{{ "/assets/Resume.pdf" | relative_url }}?v=2026-10-22" target="_blank" rel="noopener">Open resume <span aria-hidden="true">&#8599;</span></a>
     </div>
   </div>
   <figure class="portrait-wrap">
