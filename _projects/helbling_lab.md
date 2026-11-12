@@ -2,7 +2,7 @@
 layout: project
 title: Helbling Robotics Research Lab
 description: Gammabot brake development · Cornell Systems Engineering M.Eng.
-summary: Developing a lightweight brake for Gammabot, with actuator motion demonstrated and full assembly underway.
+summary: Developing a lightweight brake for Gammabot, with the assembly and flexure demonstrated in a benchtop test.
 order: 2
 technologies: [Mechanical Design, Prototyping, Experimental Testing]
 image: /assets/images/helbling-gammabot-hardware.png
@@ -21,10 +21,20 @@ The challenge is balancing drag with weight: the brake needs to push against the
 
 ## Actuation and assembly
 
-I’m now moving from passive braking tests toward an actuated mechanism. The clip below shows the actuator moving on the bench. I’m assembling the full system during the week of October 19, 2026, bringing the brake and actuation mechanism together on the robot.
+The brake assembly and flexure are now working together in a benchtop test. The video below shows the mechanism moving before testing deployment in water.
 
-Once assembled, I’ll test whether the brake deploys reliably into the water and how that deployment affects the robot’s motion.
+The next step is to evaluate whether the brake enters the water reliably and how deployment affects the robot’s motion.
 
+<figure class="lab-video lab-video-portrait">
+  <video controls muted playsinline preload="metadata" poster="{{ '/assets/images/helbling-assembly-flexure-poster.jpg' | relative_url }}" aria-label="Benchtop test of the Gammabot brake assembly and flexure">
+    <source src="{{ '/assets/videos/helbling-assembly-flexure.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support embedded video. <a href="{{ '/assets/videos/helbling-assembly-flexure.mp4' | relative_url }}">Watch the assembly and flexure test.</a>
+  </video>
+  <figcaption>Benchtop test of the brake assembly and flexure, November 2026.</figcaption>
+</figure>
+
+<details class="lab-previous-test">
+  <summary>Earlier actuator-only test</summary>
 <figure class="lab-video">
   <video controls playsinline preload="metadata" poster="{{ '/assets/images/helbling-actuator-poster.jpg' | relative_url }}" aria-label="Gammabot actuator motion demonstration">
     <source src="{{ '/assets/videos/helbling-actuator.mp4' | relative_url }}" type="video/mp4">
@@ -32,6 +42,7 @@ Once assembled, I’ll test whether the brake deploys reliably into the water an
   </video>
   <figcaption>Actuator motion before full-system assembly.</figcaption>
 </figure>
+</details>
 
 <div class="lab-gallery">
   <figure>
